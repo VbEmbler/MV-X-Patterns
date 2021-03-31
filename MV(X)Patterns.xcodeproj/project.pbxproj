@@ -14,6 +14,7 @@
 		E7D53C4026149C5900AEC8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D53C3F26149C5900AEC8EB /* Assets.xcassets */; };
 		E7D53C4326149C5900AEC8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D53C4126149C5900AEC8EB /* LaunchScreen.storyboard */; };
 		E7D53C4B26149D8F00AEC8EB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D53C4A26149D8F00AEC8EB /* Person.swift */; };
+		E7D53C532614CA5100AEC8EB /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D53C522614CA5100AEC8EB /* GreetingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E7D53C4226149C5900AEC8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7D53C4426149C5900AEC8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7D53C4A26149D8F00AEC8EB /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E7D53C522614CA5100AEC8EB /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				E7D53C3F26149C5900AEC8EB /* Assets.xcassets */,
 				E7D53C4126149C5900AEC8EB /* LaunchScreen.storyboard */,
 				E7D53C4D26149E7300AEC8EB /* Models */,
+				E7D53C522614CA5100AEC8EB /* GreetingViewModel.swift */,
 			);
 			path = "MV(X)Patterns";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				E7D53C3B26149C5500AEC8EB /* GreetingViewController.swift in Sources */,
 				E7D53C3726149C5500AEC8EB /* AppDelegate.swift in Sources */,
+				E7D53C532614CA5100AEC8EB /* GreetingViewModel.swift in Sources */,
 				E7D53C4B26149D8F00AEC8EB /* Person.swift in Sources */,
 				E7D53C3926149C5500AEC8EB /* SceneDelegate.swift in Sources */,
 			);

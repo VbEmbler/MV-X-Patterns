@@ -12,12 +12,22 @@ class GreetingViewController: UIViewController {
 
     @IBOutlet weak var greetingLabel: UILabel!
     
+    private var viewModel: GreetingViewModelProtocol! {
+        didSet {
+            viewModel.greetingDidChange = { [unowned self] viewModel in
+                self.greetingLabel.text = viewModel.greeting
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let person = Person(name: "Tim", surname: "Cook")
+        viewModel = GreetingViewModel(person: person)
     }
 
     @IBAction func showGreetingPresed() {
+        viewModel.showGreeting()
     }
 }
 
