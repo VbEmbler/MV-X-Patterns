@@ -12,12 +12,15 @@ class GreetingViewController: UIViewController {
 
     @IBOutlet weak var greetingLabel: UILabel!
     
+    private var person: Person!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        person = Person(name: "Tim", surname: "Cook")
     }
 
     @IBAction func showGreetingPresed() {
+        greetingLabel.text = "Hello \(person.name) \(person.surname)!"
     }
 }
 
